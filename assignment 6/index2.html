@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <a href="animation1.html"><h1 style="color:white">Women's Shoes</h1></a>
+	<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      <div class="ImgBx">
+      	<img src="g1.jpg" width="300">
+      </div>
+      <div class="details">
+      	<h3>Adidas Running Shoes<br><span>Rs.4500</span></h3>
+      </div>
+      </div>
+      <div class="swiper-slide">
+      <div class="ImgBx">
+      	<img src="g2.jpg" width="300" height="300">
+      </div>
+      <div class="details">
+      	<h3>Nike Air <br><span>Rs.10,000</span></h3>
+      </div>
+      </div>
+      <div class="swiper-slide">
+      <div class="ImgBx">
+      	<img src="g3.jpg" width="300" height="300">
+      </div>
+      <div class="details">
+      	<h3>Nike Summer Breeze<br><span>Rs.5000</span></h3>
+      </div>
+      </div>
+      <div class="swiper-slide">
+      <div class="ImgBx">
+      	<img src="g4.jpg" width="300" height="300">
+      </div>
+      <div class="details">
+      	<h3>Puma  shoes<br><span>Rs.3500</span></h3>
+      </div>
+      </div>
+<!--       <div class="swiper-slide">
+      <div class="ImgBx">
+        <img src="C:\Users\Dhruv\OneDrive\Pictures\me\g5.jpg" width="300" height="300">
+      </div>
+      <div class="details">
+        <h3>Nike air shoes<br><span>Rs.6500</span></h3>
+      </div> -->
+      </div>
+
+          </div>
+
+	<script type="text/javascript" src="swiper.min.js"></script>
+	 <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+</html>

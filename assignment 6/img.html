@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="app.js">
+    <link href="style.scss">
+  <style>
+    .class1 {
+      max-height:0px;
+      transition:max-height 1s;
+      overflow:hidden;
+    }
+    
+  </style>
+  <script>
+      var x=0
+    function show() {
+        if(x==0){
+      document.getElementById('id1').style.maxHeight = "100%" ;
+      x=1;
+        }
+        else
+        {
+            document.getElementById('id1').style.maxHeight = "0px" ;
+      x=0;
+        }
+    }
+    
+  
+  </script>
+</head>
+<body>
+  <button onclick="show()">Explore +</button>
+  <hr>
+	
+  <div  id="id1" class="class1">
+    <img src="img1.jpg" alt="" width="400">
+    <img src="img2.jpg" alt="" width="400">
+    <img src="img3.jpg" alt="" width="400">
+    <img src="img4.jpg" alt="">
+  </div>
+	
+  <hr>
+
+  <!-- <div class="Menu">
+  <ul class="Menu-list" data-offset="10">
+    <li class="Menu-list-item" data-offset="20" onclick>
+      Home
+      <span class="Mask"><span>Home</span></span>
+      <span class="Mask"><span>Home</span></span>
+    </li>
+    <li class="Menu-list-item" data-offset="16" onclick>
+      About
+      <span class="Mask"><span>About</span></span>
+      <span class="Mask"><span>About</span></span>
+    </li>
+    
+  </ul>
+</div> -->
+ 
+  
+</body>
+</html>

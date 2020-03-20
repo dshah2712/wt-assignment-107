@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        background-image: url('html-color-codes-color-tutorials-hero-00e10b1f.jpg');
+      }
+
+    </style>
+  </head>
+<body style="position: absolute;top: 200px;left: 600px;">
+    
+<form action="/action_page.php">
+<fieldset>
+    <legend style="color: black;margin: 0 auto;">Registration-Form</legend>
+Enter your name: <br><input type="text" id="fname" onblur="myFunction()">
+<br>
+Username:<br> 
+  <input type="text" name="username" required> 
+  <br> 
+  Email id:<br> 
+  <input type="text" name="email_id"> 
+  <br><br>
+  <label for="country">Country:</label> 
+  <select name="country" id="country"> 
+      <option value="India">India</option> 
+      <option value="Sri Lanka">Sri Lanka</option> 
+      <option value="Australia">Australia</option> 
+  </select>   
+  <br><br>
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile" multiple>
+<br><br>
+  <input type="submit" value="Submit">
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+function f2(){
+    
+}
+</script>
+</fieldset>
+</form>
+</body>
+</html>
